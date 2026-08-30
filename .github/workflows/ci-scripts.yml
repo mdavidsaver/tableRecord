@@ -25,6 +25,16 @@ jobs:
           cmp: gcc
           base: "7.0"
 
+        - name: mac-7.0
+          os: macos-latest
+          cmp: gcc
+          base: "7.0"
+
+        - name: windows-7.0
+          os: windows-latest
+          cmp: gcc
+          base: "7.0"
+
     env:
       MODULES: "pvxs"
       BASE: ${{ matrix.base }}
