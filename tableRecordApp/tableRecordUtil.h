@@ -1,5 +1,7 @@
 #pragma once
 
+#include <string>
+
 #include "tableRecordAPI.h"
 #include "tableRecord.h"
 #include "tableVStr.h"
